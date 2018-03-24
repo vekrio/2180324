@@ -1,4 +1,8 @@
 
+以前区分“乡下人”和“城里人”是根据户口来区分的，但国家将要取消农村户口了，户籍制度改革后统一登记，农村户口和城镇户口都登记为“居民户口”，使农民朋友们和城市居民享有同等的社会保障。
+import sys
+
+
 from tornado import  web,ioloop,httpserver
 
 
@@ -25,3 +29,5 @@ if __name__ == '__main__':
     http_server = httpserver.HTTPServer(application)
     http_server.listen(8089)
     ioloop.IOLoop.current().start()
+
+
